@@ -16,11 +16,11 @@ const images: Record<string, string[]> = {
       "/gallery/dining-room/dining-room_2.jpg",
       "/gallery/dining-room/dining-room_3.jpg",
     ],
-    "room-bathroom": Array.from({ length: 12 }, (_, i) => `/gallery/room-bathroom/room-bathroom_${i + 1}.jpg`), // <= set to real count
+    "room-bathroom": Array.from({ length: 10}, (_, i) => `/gallery/room-bathroom/room-bathroom_${i + 1}.jpg`), // <= set to real count
     entrance: Array.from({ length: 6 }, (_, i) => `/gallery/entrance/entrance_${i + 1}.jpg`),
-    facade: Array.from({ length: 3 }, (_, i) => `/gallery/facade/facade_${i + 1}.jpg`), // <= folder matches key
+    facade: Array.from({ length: 3 }, (_, i) => `/gallery/front-yard/front-yard_${i + 1}.jpg`), // <= folder matches key
     kitchen: Array.from({ length: 3 }, (_, i) => `/gallery/kitchen/kitchen_${i + 1}.jpg`),
-    "screened-in-porch": Array.from({ length: 6 }, (_, i) => `/gallery/screened-in-porch/screen_${i + 1}.jpg`),
+    "screened-in-porch": Array.from({ length: 4 }, (_, i) => `/gallery/screened-in-porch/screen_${i + 1}.jpg`),
   };
 
 
