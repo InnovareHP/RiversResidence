@@ -48,6 +48,12 @@ const Navigation = () => {
             >
               Volunteer
             </a>
+            <a
+              href="/opal-and-sage"
+              className="text-stone-600 hover:text-emerald-700 hover:underline decoration-yellow-400 transition-colors font-medium"
+            >
+              Opal and Sage
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -101,6 +107,13 @@ const Navigation = () => {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Volunteer
+              </a>
+              <a
+                href="/opal-and-sage"
+                className="text-stone-600 hover:text-yellow-600 font-medium px-4 py-2 transition"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Opal and Sage
               </a>
             </div>
           </div>
