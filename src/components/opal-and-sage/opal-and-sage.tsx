@@ -8,7 +8,7 @@ const OpalAndSagePage = () => {
             <img
               src="/image/opal-and-sage.png"
               alt="Opal and Sage Logo"
-              className="mx-auto h-92 w-auto object-contain drop-shadow-lg "
+              className="mx-auto h- w-auto object-contain drop-shadow-lg "
             />
 
             <p className="mt-6 text-2xl italic font-light text-[#FAF9F6]/90">
